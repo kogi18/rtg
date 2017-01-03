@@ -1,0 +1,5 @@
+﻿  Renderer.cpp
+C:\Users\Rok\Desktop\rtg\source\task3\Renderer.cpp(302): warning C4101: 'indexBase': unreferenced local variable
+  main.cpp
+  Generating Code...
+  task3.vcxproj -> C:\Users\Rok\Desktop\rtg\task3\Debug\task3.exe

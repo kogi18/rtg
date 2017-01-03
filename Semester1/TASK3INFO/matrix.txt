@@ -1,0 +1,36 @@
+Hi,
+
+thanks for being so quick to test it, the directory with the math 
+headers was indeed missing in the archive!
+
+We have uploaded a new version of the rtg.zip, please find it in the 
+TeachCenter.
+
+The possible includes are:
+
+#include <math/math.h>
+#include <math/vector.h>
+#include <math/Matrix.h>
+
+Here you have a little example that you can try out in the main function 
+to see if everything works and to get acquainted with the math functions:
+
+int main(int argc, char* argv[])
+{
+     math::float3 vector(3, 4, 5);
+
+     std::cout << vector << "\n" << std::endl;
+
+     math::float4x4 matrix = math::identity<math::float4x4>();
+
+     std::cout << matrix << "\n" << std::endl;
+
+     matrix._11 = 5;
+     matrix._12 = 5;
+     matrix._13 = 5;
+
+     std::cout << matrix << std::endl;
+...
+}
+
+Best regards, Bernhard.

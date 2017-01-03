@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Rok/Desktop/rtg/build/cmake/framework/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Rok\Desktop\rtg\framework\CMakeFiles\generate.stamp is up-to-date.
+  BasicRenderer.cpp
+  png.cpp
+C:\Users\Rok\Desktop\rtg\source\framework\png.cpp(161): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  framework.vcxproj -> C:\Users\Rok\Desktop\rtg\framework\Debug\frameworkD.lib

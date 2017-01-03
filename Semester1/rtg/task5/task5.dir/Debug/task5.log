@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Rok/Desktop/rtg/build/cmake/task5/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Rok\Desktop\rtg\task5\CMakeFiles\generate.stamp is up-to-date.
+  InputHandler.cpp
+  Renderer.cpp
+  main.cpp
+  Generating Code...
+  task5.vcxproj -> C:\Users\Rok\Desktop\rtg\task5\Debug\task5.exe

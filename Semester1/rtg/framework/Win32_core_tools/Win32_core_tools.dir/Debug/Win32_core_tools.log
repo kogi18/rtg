@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Rok/Desktop/rtg/build/dependencies/Win32_core_tools/build/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Rok\Desktop\rtg\framework\Win32_core_tools\CMakeFiles\generate.stamp is up-to-date.
+  com_error.cpp
+  event.cpp
+  unicode.cpp
+  Generating Code...
+  Win32_core_tools.vcxproj -> C:\Users\Rok\Desktop\rtg\framework\Win32_core_tools\Debug\Win32_core_toolsD.lib

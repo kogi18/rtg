@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\source\DefaultDisplayHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\source\win32\Win32GLApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\source\win32\Win32GLContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\source\win32\Win32GLWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{718C08F1-B1E8-33F5-93E0-7AEAB7D410C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

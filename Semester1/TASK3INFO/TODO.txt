@@ -1,0 +1,11 @@
+Simple 3D object (colored faces for clear understanding) = piramids sticking together
+Use buffer objects and array
+VerSha: maps the object to the screen according to a given model, view and projection
+VerSha: outputs normals vectors for shading to the fragment shader
+VerSha: use uniform variables to pass info like matrices for the shader
+FragSha: implement simple lambertian shading
+FragSha: light comes from a point light source located at the position of the camera
+Set up a camera looking at the object with view and projection matrix
+Use the model matrix to spin the object
+Draw the object
+Add Checklist Item 

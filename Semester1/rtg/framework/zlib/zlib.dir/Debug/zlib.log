@@ -1,0 +1,15 @@
+﻿  Building Custom Rule C:/Users/Rok/Desktop/rtg/build/cmake/framework/zlib/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Rok\Desktop\rtg\framework\zlib\CMakeFiles\generate.stamp is up-to-date.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+  zlib.vcxproj -> C:\Users\Rok\Desktop\rtg\framework\zlib\Debug\zlibD.lib

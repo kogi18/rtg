@@ -1,0 +1,10 @@
+﻿  Building Custom Rule C:/Users/Rok/Desktop/rtg/build/dependencies/GL_platform_tools/build/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Rok\Desktop\rtg\framework\GL_platform_tools\CMakeFiles\generate.stamp is up-to-date.
+  DefaultDisplayHandler.cpp
+  Win32GLApplication.cpp
+  Win32GLContext.cpp
+C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\source\win32\Win32GLContext.cpp(47): warning C4838: conversion from 'int' to 'DWORD' requires a narrowing conversion
+C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\source\win32\Win32GLContext.cpp(47): warning C4838: conversion from 'int' to 'BYTE' requires a narrowing conversion
+  Win32GLWindow.cpp
+  Generating Code...
+  GL_platform_tools.vcxproj -> C:\Users\Rok\Desktop\rtg\framework\GL_platform_tools\Debug\GL_platform_toolsD.lib

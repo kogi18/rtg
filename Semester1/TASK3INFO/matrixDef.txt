@@ -1,0 +1,30 @@
+M = TRS = [
+		R*S | T
+		 0    1 //homogenos
+]
+
+S = [
+	sx 0  0
+	0  sy 0
+	0  0  sz
+]
+
+R = RxRyRz
+
+Rx = [
+	1  0     0
+	0 cosX -sinX
+	0 sinX  cosX
+]
+
+Ry = [
+	cosY   0  sinY
+	 0     1   0
+	-sinY  0  cosY
+]
+
+Rz = [
+	cos -sin 0
+	sin  cos 0
+	0     0  1
+]

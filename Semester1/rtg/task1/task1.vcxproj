@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Submission|Win32">
+      <Configuration>Submission</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{578A2335-2EAC-3340-B586-56D18FB4792E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>task1</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Rok\Desktop\rtg\task1\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">task1.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">task1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Rok\Desktop\rtg\task1\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">task1.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">task1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Rok\Desktop\rtg\task1\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">task1.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">task1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Rok\Desktop\rtg\task1\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">task1.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">task1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">C:\Users\Rok\Desktop\rtg\task1\Submission\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">task1.dir\Submission\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">task1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\framework\Debug\frameworkD.lib;..\framework\libpng\Debug\lpngD.lib;..\framework\zlib\Debug\zlibD.lib;opengl32.lib;..\framework\Win32_core_tools\Debug\Win32_core_toolsD.lib;..\framework\GL_platform_tools\Debug\GL_platform_toolsD.lib;..\framework\GL_platform_tools\glcore\Debug\glcoreD.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Rok/Desktop/rtg/task1/Debug/task1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Rok/Desktop/rtg/task1/Debug/task1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\framework\Release\framework.lib;..\framework\libpng\Release\lpng.lib;..\framework\zlib\Release\zlib.lib;opengl32.lib;..\framework\Win32_core_tools\Release\Win32_core_tools.lib;..\framework\GL_platform_tools\Release\GL_platform_tools.lib;..\framework\GL_platform_tools\glcore\Release\glcore.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Rok/Desktop/rtg/task1/Release/task1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Rok/Desktop/rtg/task1/Release/task1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\framework\MinSizeRel\framework.lib;..\framework\libpng\MinSizeRel\lpng.lib;..\framework\zlib\MinSizeRel\zlib.lib;opengl32.lib;..\framework\Win32_core_tools\MinSizeRel\Win32_core_tools.lib;..\framework\GL_platform_tools\MinSizeRel\GL_platform_tools.lib;..\framework\GL_platform_tools\glcore\MinSizeRel\glcore.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Rok/Desktop/rtg/task1/MinSizeRel/task1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Rok/Desktop/rtg/task1/MinSizeRel/task1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\framework\RelWithDebInfo\framework.lib;..\framework\libpng\RelWithDebInfo\lpng.lib;..\framework\zlib\RelWithDebInfo\zlib.lib;opengl32.lib;..\framework\Win32_core_tools\RelWithDebInfo\Win32_core_tools.lib;..\framework\GL_platform_tools\RelWithDebInfo\GL_platform_tools.lib;..\framework\GL_platform_tools\glcore\RelWithDebInfo\glcore.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Rok/Desktop/rtg/task1/RelWithDebInfo/task1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Rok/Desktop/rtg/task1/RelWithDebInfo/task1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Submission/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR="Submission";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;GLCORE_STATIC;CMAKE_INTDIR=\"Submission\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Rok\Desktop\rtg\build\dependencies\Win32_core_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\source\win32\include;C:\Users\Rok\Desktop\rtg\build\dependencies\GL_platform_tools\build\cmake\..\..\include;C:\Users\Rok\Desktop\rtg\build\cmake\framework\zlib\..\..\..\dependencies\zlib;C:\Users\Rok\Desktop\rtg\build\cmake\framework\libpng\..\..\..\dependencies\libpng;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework;C:\Users\Rok\Desktop\rtg\build\cmake\framework\..\..\..\source\framework\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\framework\Submission\framework.lib;..\framework\libpng\Submission\lpng.lib;..\framework\zlib\Submission\zlib.lib;opengl32.lib;..\framework\Win32_core_tools\Submission\Win32_core_tools.lib;..\framework\GL_platform_tools\Submission\GL_platform_tools.lib;..\framework\GL_platform_tools\glcore\Submission\glcore.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Rok/Desktop/rtg/task1/Submission/task1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Rok/Desktop/rtg/task1/Submission/task1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Rok/Desktop/rtg/build/cmake -BC:/Users/Rok/Desktop/rtg --check-stamp-file C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Rok/Desktop/rtg/build/cmake -BC:/Users/Rok/Desktop/rtg --check-stamp-file C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Rok/Desktop/rtg/build/cmake -BC:/Users/Rok/Desktop/rtg --check-stamp-file C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Rok/Desktop/rtg/build/cmake -BC:/Users/Rok/Desktop/rtg --check-stamp-file C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">Building Custom Rule C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Rok/Desktop/rtg/build/cmake -BC:/Users/Rok/Desktop/rtg --check-stamp-file C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">C:/Users/Rok/Desktop/rtg/build/cmake/task1/CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;C:\Users\Rok\Desktop\rtg\build\cmake\task1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">C:\Users\Rok\Desktop\rtg\task1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Submission|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Rok\Desktop\rtg\source\task1\InputHandler.h" />
+    <ClInclude Include="C:\Users\Rok\Desktop\rtg\source\task1\Renderer.h" />
+    <ClCompile Include="C:\Users\Rok\Desktop\rtg\source\task1\InputHandler.cpp"  />
+    <ClCompile Include="C:\Users\Rok\Desktop\rtg\source\task1\Renderer.cpp"  />
+    <ClCompile Include="C:\Users\Rok\Desktop\rtg\source\task1\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Rok/Desktop/rtg/ZERO_CHECK.vcxproj">
+      <Project>303FBE17-DEC9-3FE5-A8A3-8FE669027EA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Rok/Desktop/rtg/framework/GL_platform_tools/GL_platform_tools.vcxproj">
+      <Project>B29451D3-BF0F-3678-BFD0-940E41A0E2B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Rok/Desktop/rtg/framework/Win32_core_tools/Win32_core_tools.vcxproj">
+      <Project>03BFAE7D-5A50-3EC4-910D-BF3C18ABCF31</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Rok/Desktop/rtg/framework/framework.vcxproj">
+      <Project>7D4B83C8-54B4-317B-B67D-3FC03F9D44F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Rok/Desktop/rtg/framework/GL_platform_tools/glcore/glcore.vcxproj">
+      <Project>EB9B8764-B913-3CDE-ABD9-511E31D4E917</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Rok/Desktop/rtg/framework/libpng/lpng.vcxproj">
+      <Project>1700F8FF-E404-3B84-8894-5EA0378776E7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Rok/Desktop/rtg/framework/zlib/zlib.vcxproj">
+      <Project>B703BF55-4D4B-37B3-8B19-AFFD1D055C4F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
